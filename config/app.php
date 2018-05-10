@@ -155,7 +155,13 @@ return [
         App\Providers\AuthServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        
+        /**
+         * Cumstoms configs
+         * by adrian.ake
+         */
 
+        Barryvdh\Cors\ServiceProvider::class,
     ],
 
     /*
